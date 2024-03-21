@@ -1,10 +1,6 @@
 const leia = require('readline-sync');
 
-let salarioB;
-let adicionalN;
-let horasExtras;
-let descontos;
-let salarioL;
+let salarioB, adicionalN, horasExtras, descontos, salarioL;
 
 salarioB = leia.questionFloat('Digite seu Salário Bruto: ', {limitMessage: 'Digite um número float: '});
 adicionalN = leia.questionFloat('Digite o Adicional Noturno: ', {limitMessage: 'Digite um número float: '});
