@@ -5,7 +5,7 @@ let numero, impar = 0, par = 0;
 console.log('CONTADOR DE NUMEROS PARES E IMPARES');
 
 for (contador = 1; contador <= 10; contador++) {
-    numero = leia.questionInt('Digite um numero: ');
+    numero = leia.questionInt('\nDigite um numero: ');
 
     if (numero % 2 === 0) {
         par++;
