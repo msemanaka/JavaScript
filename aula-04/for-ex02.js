@@ -11,7 +11,7 @@ for (contador = 1; contador <= 10; contador++) {
         par++;
     } else {
         impar++;
-    } 
+    }
 }
 
 console.log(`\nTotal de numeros pares: ${par}`);
