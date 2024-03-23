@@ -23,12 +23,12 @@ for (indice = 0; indice < vetorInteiros.length; indice++) {
 }
 
 
-for (indice = 0; indice < vetorInteiros.length; indice++){
+for (indice = 0; indice < vetorInteiros.length; indice++) {
     soma += vetorInteiros[indice]
 }
 console.log(`\nSoma de todos os numeros informados: ${soma}`)
 
-for (indice = 0; indice < vetorInteiros.length; indice++){
+for (indice = 0; indice < vetorInteiros.length; indice++) {
     media = soma / vetorInteiros.length
 }
 console.log(`\nMedia: ${(media).toFixed(2)}`)
